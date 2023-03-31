@@ -16,19 +16,21 @@
 # # Keep the script running to maintain the port forwarding tunnel
 # while True:
 #     print("Running")
-
+# windows = '172.23.16.1'
+# linux = '172.17.0.2' 
+# win = '192.168.0.155' 
 
 import paramiko
 
 # SSH server details
-ssh_host = '172.23.16.1'
+ssh_host = '192.168.0.155'
 ssh_port = 22
-ssh_username = 'Praful Patekar'
-ssh_password = 'lghive2023'
+ssh_username = 'Vishwadeep Konga'
+ssh_password = 'headless'
 
 
 # Source and destination ports
-source_port = 3001
+source_port = 3000
 destination_port = 9000
 
 # Create SSH connection
